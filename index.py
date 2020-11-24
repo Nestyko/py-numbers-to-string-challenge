@@ -7,6 +7,9 @@ def number_to_string(input):
     for i, n in zip(reversed(range(len(numbers))), numbers):
         if 10 ** i >= 100:
             convert_numbers.append(n)
-        convert_numbers.append(int(n) * 10 ** i)
-    words = [number_constants[int(n)] for n in convert_numbers]
+        if number_constants.get(int(n) * 10 ** i) is None:
+            convert_numbers.append(10 ** i)
+        else:
+            convert_numbers.append(int(n) * 10 ** i)
+    words = [number_constants[int(n)] for n in convert_numbers if number_constants[int(n)] != "zero"]
     return ' '.join(words)
