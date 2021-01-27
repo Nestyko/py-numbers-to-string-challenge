@@ -1,4 +1,5 @@
 from number_constants import number_constants
+from time import sleep
 
 def number_to_string(input):
     try:
@@ -44,7 +45,7 @@ def number_to_string(input):
                         if counter % 6 > 2:
                             sOutput = f"{number_to_string(digit)} {number_constants[tenMult]} {sOutput}"
                         else:
-                            sOutput = f"{number9_to_string(digit)} {sOutput}"
+                            sOutput = f"{number_to_string(digit)} {sOutput}"
                     elif counter % 3 == 1:
                         sOutput = f"{number_constants[digit*10]} {sOutput}"
                     elif counter % 3 == 2 and tenMult in number_constants:
@@ -81,7 +82,7 @@ def number_to_string(input):
                         if counter % 6 > 2:
                             sOutput = f"{number_to_string(digit)} {number_constants[tenMult]} {sOutput}"
                         else:
-                            sOutput = f"{number9_to_string(digit)} {sOutput}"
+                            sOutput = f"{number_to_string(digit)} {sOutput}"
                     elif counter % 3 == 1:
                         sOutput = f"{number_constants[digit*10]} {sOutput}"
                     elif counter % 3 == 2 and tenMult in number_constants:
@@ -89,8 +90,10 @@ def number_to_string(input):
                     else:
                         sOutput = f"{number_to_string(digit*100)} {sOutput}"
                     counter += 1
-            return sOutput
+            return sOutput.strip()
     except:
         return "Input is not a valid number"
 
+#5 148 121 123
+number_to_string(5148121123)
 
