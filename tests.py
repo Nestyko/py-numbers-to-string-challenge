@@ -9,3 +9,6 @@ class TestNumbersToString(unittest.TestCase):
         self.assertEqual(number_to_string(2), "two")
         self.assertEqual(number_to_string(26), "twenty six")
         self.assertEqual(number_to_string(128), "one hundred twenty eight")
+        self.assertEqual(number_to_string(228), "two hundred twenty eight")
+        self.assertEqual(number_to_string(1028), "one thousand twenty eight")
+        self.assertEqual(number_to_string(2028), "two thousand twenty eight")
