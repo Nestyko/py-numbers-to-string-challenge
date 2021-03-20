@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9b9b542-0e3b-43f0-94e8-fa5e857c49b3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/index.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606257026996</updated>
-      <workItem from="1606257028147" duration="590000" />
+      <workItem from="1606257028147" duration="866000" />
     </task>
     <servers />
   </component>
@@ -64,24 +63,28 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1680" height="294" key="GridCell.Tab.0.bottom" timestamp="1606257622208">
+    <state width="1680" height="294" key="GridCell.Tab.0.bottom" timestamp="1606269214611">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1680" height="294" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606257622208" />
-    <state width="1680" height="294" key="GridCell.Tab.0.center" timestamp="1606257622206">
+    <state width="1680" height="294" key="GridCell.Tab.0.bottom/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1606269214611" />
+    <state width="1680" height="294" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606257657298" />
+    <state width="1680" height="294" key="GridCell.Tab.0.center" timestamp="1606269214608">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1680" height="294" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606257622206" />
-    <state width="1680" height="294" key="GridCell.Tab.0.left" timestamp="1606257622205">
+    <state width="1680" height="294" key="GridCell.Tab.0.center/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1606269214608" />
+    <state width="1680" height="294" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606257657296" />
+    <state width="1680" height="294" key="GridCell.Tab.0.left" timestamp="1606269214606">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1680" height="294" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606257622205" />
-    <state width="1680" height="294" key="GridCell.Tab.0.right" timestamp="1606257622207">
+    <state width="1680" height="294" key="GridCell.Tab.0.left/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1606269214606" />
+    <state width="1680" height="294" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606257657294" />
+    <state width="1680" height="294" key="GridCell.Tab.0.right" timestamp="1606269214609">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1680" height="294" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606257622207" />
+    <state width="1680" height="294" key="GridCell.Tab.0.right/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1606269214609" />
+    <state width="1680" height="294" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606257657297" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/py_numbers_to_string_challenge2$pytest_for_tests_TestNumbersToString.coverage" NAME="pytest for tests.TestNumbersToString Coverage Results" MODIFIED="1606257622195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/py_numbers_to_string_challenge2$pytest_for_tests_TestNumbersToString.coverage" NAME="pytest for tests.TestNumbersToString Coverage Results" MODIFIED="1606257657283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
